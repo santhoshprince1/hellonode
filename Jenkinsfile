@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("170719981/gitjavaonubuntu20")
+        app = docker.build("170719981/dockerpipeline1")
     }
 
     stage('Test image') {
